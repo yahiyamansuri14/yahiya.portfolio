@@ -8,7 +8,7 @@
 
 .flex-child {
     height: auto;
-    width: auto;
+    width: 100%;
     /* background: #81ecec; */
     box-shadow: 0 0 10px #bac3c3;
     flex: 1 1 200px;
