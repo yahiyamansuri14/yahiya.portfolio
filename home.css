@@ -49,8 +49,8 @@ button {
     height: auto;
     width: auto;
     margin-top: 200px;
-    border: 1px solid white;
-    border-radius: 15px 50px;
+  /*  border: 1px solid white;
+    border-radius: 15px 50px;*/
     overflow: none;
 }
 
