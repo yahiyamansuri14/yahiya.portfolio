@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Magra', sans-serif;
 }
 
 body {
@@ -15,7 +16,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: #f5d67b;
+    ;
 }
 
 .intro-text {
@@ -49,15 +51,21 @@ button {
     height: auto;
     width: auto;
     margin-top: 200px;
-  /*  border: 1px solid white;
-    border-radius: 15px 50px;*/
+    /* border: 1px solid white;
+    border-radius: 15px 50px; */
     overflow: none;
 }
 
 .connect-text {
     font-size: 30px;
     padding: 15px;
-    color: #72e0d1
+    color: #72e0d1;
+}
+
+.connect-text-1 {
+    font-size: 30px;
+    padding: 15px;
+    color: #f5d67b;
 }
 
 .connect-text>span {
