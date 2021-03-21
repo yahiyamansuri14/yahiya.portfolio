@@ -1,3 +1,7 @@
+* {
+    font-family: 'Magra', sans-serif;
+}
+
 .grand_parent {
     display: flex;
     width: auto;
@@ -12,7 +16,7 @@
     /* background: #81ecec; */
     box-shadow: 0 0 10px #bac3c3;
     flex: 1 1 200px;
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     /* background-color: #343a40; */
 }
@@ -58,19 +62,18 @@ td {
 
 .project-heading {
     font-size: 25px;
-    margin-left: 15px;
     color: #72e0d1;
 }
 
 .project-details {
     font-size: 25px;
-    margin-left: 15px;
+    /*    margin-left: 15px;*/
     color: #f5d67b;
 }
 
 .project-details>a {
     font-size: 25px;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     color: #f5d67b;
 }
 
@@ -81,5 +84,20 @@ td {
 @media only screen and (max-width:480px) {
     .display-3 {
         font-size: 30px;
+    }
+    
+    .project-heading {
+        font-size: 10px;
+        color: #72e0d1;
+    }
+    
+    .project-details {
+        font-size: 10px;
+        color: #f5d67b;
+    }
+    
+    .project-details>a {
+        font-size: 10px;
+        color: #f5d67b;
     }
 }
